@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      /* margin: 10px; */
+    }
+    * {
+      text-decoration: none;
+      color: black;
+    }
+    .op {
+      position: fixed;
+      width: 1500px;
+      background-color: aliceblue;
+      z-index: 10;
+    }
+
+    .logo {
+      width: auto;
+      height: auto;
+    }
+    .logo img {
+      width: 100px;
+      height: 120px;
+      float: left;
+    }
+    header {
+      /* margin-left: 45px;
+    padding-top: 5px; */
+
+      text-align: center;
+    }
+    .nav {
+      border: 1px solid black;
+      margin: 45px 0 0 0;
+      background-color: rgb(183, 182, 182);
+      /* position: fixed; */
+    }
+    .nav li {
+      display: inline;
+      padding-left: 95px;
+    }
+    #home {
+      width: 1498px;
+      height: 800px;
+      border: 1px solid black;
+      margin-top: 3px;
+      background-image: url(cutm/_MRC7691.JPG);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 00px;
+      overflow: hidden;
+    }
+    .info {
+      width: 40%;
+      height: 30%;
+      border: 1px solid black;
+      margin: 19% 10% 0 5%;
+      background: rgba(249, 248, 248, 0.7);
+      border-radius: 5px;
+    }
+    .info p {
+      margin: 10px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: medium;
+      font-weight: bold;
+    }
+    .boxs {
+      width: 70%;
+      height: 500px;
+      margin-top: 335px;
+      /* background-color: aliceblue; */
+
+      /* opacity: 0; */
+    }
+    /* .box1,.box2,.box3{
+      /* margin-top: 120px; */
+
+    .box1 {
+      width: 75%;
+      height: 25%;
+      background-color: rgb(255, 221, 0);
+      padding-top: 0px;
+      border-radius: 10px;
+      margin: 0 30px 30px 30px;
+      margin-left: 450px;
+    }
+    .box1 img {
+      margin-left: 120px;
+      margin-bottom: 50px;
+    }
+    .box2 {
+      width: 85%;
+      height: 25%;
+      background-color: rgb(255, 0, 0);
+
+      border-radius: 10px;
+      margin: 30px;
+      margin-left: 200px;
+    }
+    .box2 img {
+      margin-left: 120px;
+      margin-bottom: 50px;
+    }
+    .box3 {
+      width: 70%;
+      height: 25%;
+      background-color: rgb(38, 0, 255);
+
+      border-radius: 10px;
+      margin: 30px;
+      margin-left: 290px;
+    }
+    .box3 img {
+      margin-left: 180px;
+      margin-bottom: 50px;
+    }
+    .about {
+      background-color: rgb(222, 220, 220);
+      width: 1500px;
+      height: 1600px; 
+      display: block;
+      padding-top: 20px;
+        overflow: hidden;
+  }
+    .leader {
+      background-color: rgb(183, 182, 182);
+      height: 3%;
+      width: 31%;
+      display: flex;
+      padding: 10px 0 10px 40px;
+    }
+    .leader h3 {
+      font-size: larger;
+    }
+    .info2 {
+      border: 1px solid black;
+      width: 40%;
+      height: 13%;
+      margin-top: 68px;
+      margin-left: 50px;
+      padding: 10px;
+      font-size: 20px;
+      float: left;
+    }
+    .pho {
+      /* border: 1px solid black; */
+      margin-top: 18px;
+      margin-right: 20px;
+      width: 50%;
+      height: 30%;
+      float: right;
+    }
+    .cir1,
+    .cir2,
+    .cir3,
+    .cir4,
+    .cir5,
+    .cir6 {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      margin: 20px;
+      margin-left: 55px;
+      border-radius: 50%;
+    }
+    .cir1 h4 {
+      width: 150px;
+    }
+    .cir2 h4 {
+      width: 150px;
+    }
+    .cir3 h4 {
+      width: 150px;
+    }
+    .cir4 h4 {
+      width: 150px;
+    }
+    .cir5 h4 {
+      width: 150px;
+    }
+    .cir6 h4 {
+      width: 150px;
+    }
+    .cir7 h4 {
+      width: 150px;
+    }
+    .cir8 h4 {
+      width: 120px;
+    }
+    .cir9 h4 ,.cir10 h4,.cir11 h4,.cir12 h4,.cir13 h4,.cir14 h4,.cir15 h4{
+      width: 140px;
+    }
+    .cir1 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir2 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir3 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir4 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir5 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir6 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir7 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir8 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir9 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;*/
+        margin-left: 15px; 
+      border-radius: 50%;
+      position: center;
+    }
+    .cir10 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir11 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir12 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;*/
+       
+      border-radius: 50%;
+      position: center;
+    }
+    .cir13 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir14 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;
+        margin-left: 55px; */
+      border-radius: 50%;
+      position: center;
+    }
+    .cir15 img {
+      border: 1px solid black;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px;*/
+        
+      border-radius: 50%;
+      position: center;
+    }
+    .lin1,
+    .lin2,.lin3,.lin4,.lin5 {
+      display: flex;
+      flex-direction: row;
+      margin: 25px;
+    }
+    .lin2 {
+      margin-top: 50px;
+    }
+    .lin3{
+      padding: 20px;
+      
+    }
+    .lin4{
+      margin: 40px;
+      padding: 0;
+    }
+    .lin5{
+      margin-top: 20px;
+      padding: 0px;
+      margin: 40px;
+      
+    }
+    .admin{
+      width: 33%;
+      height: 4%;
+      background-color: rgb(183, 182, 182);
+      display: block;
+      margin-top: 550px;
+    }
+    .hadmin{
+      padding: 30px;
+      font-size: larger;
+      
+    }
+    .dean{
+      background-color: rgb(183, 182, 182);
+      width: 45%;
+      height: 4.5%;
+      margin-left: 60%;
+      margin-bottom: 0%;
+    }
+    .hdeans{
+      font-size: larger;
+      padding: 30px;
+    }
+    .placem {
+      width: 1500px;
+      height: 1000px;
+      margin-top: 50px;
+      
+      filter: contrast(100%);
+      filter: brightness(100%);
+      z-index: 1;
+    }
+    .admission{
+      width: 1500px;
+      height: 590px;
+      margin-top: 140px;
+      /* background-color: rgb(227, 129, 129); */
+      
+    }
+    .adm{
+      background-color: rgb(183, 182, 182);
+      width: 31%;
+      height: 10%;
+    }
+    .hadm{
+      font-size: larger;
+      padding: 15px;
+    }
+    .info3{
+      width: 290%;
+      height: 760%;
+      background-color: #f2f2f2;
+      margin: 20px 20px 20px 90px;
+      overflow: scroll;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+     
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+    .container {
+  width: 1460px;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 500px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.campus-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 150px;
+}
+
+.campus-info {
+  flex: 1;
+}
+
+.campus-name {
+  font-size: 1.5rem;
+  background-color: #ddd;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.cname{
+  background-color: rgb(183, 182, 182);
+  width: 31%;
+  height: 30px;
+  padding: 4px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.address p {
+  margin: 0;
+}
+
+.campus-image img {
+  /* max-width: 100%;
+  height: auto;
+   */
+   width: 500px;
+   height: 300px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.facility{
+  width:1500px;
+  height: 800px;
+  /* background-color: antiquewhite; */
+  margin-top: 90px;
+}
+.faci{
+  width: 31%;
+  height: 7%;
+  background-color: rgb(183, 182, 182);
+  margin-top: 90px;
+}
+.faci h3{
+  font-size: larger;
+  padding: 15px;
+}
+.info5{
+  margin: 60px 0 0 15px;
+  font-size: medium;
+}
+.type{
+  width: 50%;
+  height: 70%;
+  float: right;
+  /* background-color: aqua; */
+  padding: 20px;
+  display: inline-flex;
+}
+.type1,.type2,.type3,.type4,.type5{
+  width: 200px;
+  height: 42%;
+  background-color: rgb(227, 222, 222);
+  
+  margin: 20px;
+}
+.type2 h4{
+  margin-top: 10px;
+}
+.type1{
+  padding: 3px;
+  
+}
+.type li{
+  text-align: center;
+  text-decoration: dashed;
+  color: rgb(0, 0, 0);
+}
+.type2,.type3,.type4,.type5{
+  padding-top: 10px;
+}
+.type3{
+  margin-top: 180px;
+}
+.career{
+  width: 1400px;
+  height: 700px;
+  /* background-color: antiquewhite; */
+  margin: 50px;
+
+}
+.career p{
+  margin-top: 30px;
+  margin: 20px;
+  text-align: center;
+  font-size: large;
+
+}
+
+.cbox{
+  width: 80%;
+  height: 55%;
+  margin: 20px;
+  margin-left: 120px;
+  background-color: aliceblue;
+
+}
+.lin8{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+
+}
+.lin8 p,.lin9 p{
+  text-align: center;
+}
+.cbox1,.cbox2,.cbox3,.cbox4{
+  width: 250px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: 9px 3px 3px 38px;
+ 
+}
+.lin9{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  margin-top: 50px;
+
+}
+.cbox5,.cbox6,.cbox7,.cbox8{
+  width: 250px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: 9px 3px 3px 38px;
+}
+.place{
+  width: 1460px;
+  height: 1080px;
+  padding: 20px;
+}
+.placem{
+ 
+}
+.placem p{
+  text-align: center;
+  margin: 5px;
+  font-size: large;
+}
+.placem img{
+  padding: 0px;
+  filter: contrast(100%);
+  filter: brightness(90%);
+}
+.Erp{
+  width: 1440px;
+  height:800px;
+  padding: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.lopage{
+  width: 100%;
+  height: 550px;
+  background-image: url(cutm/_MRC7691.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px 0px 60px;
+
+
+}
+.login{
+  width: 500px;
+  height: 500px;
+  background-color: rgba(249, 248, 248, 0.7);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.sty{
+  width: 650px;
+  height: 400px;
+  margin-top:50px ;
+  padding: 90px 0 30px 30px;
+  overflow: hidden;
+  margin-left: 90px;
+}
+form{
+  width: 70%;
+  height: 70%;
+}
+button{
+  margin-left: 250px;
+  height: 40px;
+  width: 100px;
+  background-color: dodgerblue;
+}
+.sty .box1,.sty .box2,.sty .box3{
+
+  height: 110px;
+}
+.sty img{
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+  </style>
+  <body>
+    <div class="op">
+      <div class="logo">
+        <img
+          src="icon/Centurion_University_of_Technology_and_Management_Logo.png"
+          alt />
+        <header class="head">
+          <h1>Centurion University of Technology and Management</h1>
+        </header>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#camps">Campuses</a></li>
+          <li><a href="#admis">Admission</a></li>
+          <li><a href="#facl">Facilities</a></li>
+          <li><a href="#car">Career</a></li>
+          <li><a href="#Place">Placement</a></li>
+          <li><a href="#Erp">ERP Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="home">
+      <div class="info">
+        <p>
+          Centurion University of Technology and Management (CUTM) is a
+          multi-sector, private university located in Odisha, India. Accredited
+          with NAAC with ‘A’ grade, the main campus of CUTM is located at
+          Paralakhemundi (Gajapati district). Centurion University has other
+          campuses located in Bhubaneswar and Visakhapatnam (or Vizianagaram)
+          along with three regional campuses located in Rayagarh, Balangir (or
+          Bolangir) and Balasore.
+        </p>
+      </div>
+
+      <div class="boxs">
+        <div class="box1">
+          <img
+            src="/cutm/360_F_695939921_vbYBjz5qVTf9zgAa0XfUsKISLXHa6Ju6.png"
+            alt="#"
+            width="210px"
+            height="140px" />
+        </div>
+        <div class="box2">
+          <img src="cutm/file.png" alt width="250px" height="150px" />
+        </div>
+        <div class="box3">
+          <img
+            src="cutm/Indian-student-1.png"
+            alt
+            width="190px"
+            height="140px" />
+        </div>
+        <div class="box4"></div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="about" id="about">
+      <h1 align="center">About</h1>
+      <div class="leader"><h3>Our Leaders</h3></div>
+
+      <div class="info2">
+        <p>
+          At Centurion University, our leadership team is committed to fostering
+          an environment of innovation, excellence, and inclusivity. Led by
+          visionary educators and industry experts, our leaders bring a wealth
+          of experience and a passion for education that drives our mission
+          forward. Together, they guide our institution with a focus on academic
+          rigor, community engagement, and the holistic development of our
+          students. Their dedication ensures that Centurion University continues
+          to be a beacon of learning and a catalyst for positive change.
+        </p>
+      </div>
+
+      <div class="pho">
+        <div class="lin1">
+          <div class="cir1">
+            <img src="cutm/mukti.png" alt />
+            <h4>Prof. Mukti Kanta Mishra</h4>
+          </div>
+
+          <div class="cir2">
+            <img src="cutm/rao-sir.jpg" alt />
+            <h4>Prof. D.N.Rao</h4>
+          </div>
+          <div class="cir3">
+            <img src="cutm/supriya-mam.jpg" alt />
+            <h4>Prof. Supriya Pattnaik</h4>
+          </div>
+        </div>
+
+        <div class="lin2">
+          <div class="cir4">
+            <img src="cutm/arpita-mam.jpg" alt />
+            <h4>Prof. Anita Patro</h4>
+          </div>
+          <div class="cir5">
+            <img src="cutm/provost.jpeg" alt />
+            <h4>Prof. Radhakant Mishra</h4>
+          </div>
+          <div class="cir6">
+            <img src="cutm/Pro-VC-B.jpg" alt />
+            <h4>Dr. Biswajit Mishra</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="admin">
+        <h3 class="hadmin">Our Admins</h3>
+        <div class="lin3">
+
+          <div class="cir7">
+            <img src="cutm/admin-img-1.png" alt />
+            <h4>Mr. Sukanta Parida</h4>
+          </div>
+          <div class="cir8">
+            <img src="cutm/admin-img-2.png" alt />
+            <h4>Ms. Monalisha Ghosh</h4>
+          </div>
+          <div class="cir9">
+            <img src="cutm/admin-img-3.png" alt />
+            <h4>Prof.Rabi Narayan Routray</h4>
+          </div>
+        </div>
+
+      </div>
+      <div class="dean">
+        <h3 class="hdeans">Our Deans</h3>
+        <div class="lin4">
+          <div class="cir10">
+            <img src="cutm/deans-pkd.png" alt />
+            <h4>Dr. Ashish Ranjan Dash, SOET(PKD)</h4>
+          </div>
+
+          <div class="cir11">
+            <img src="cutm/deans-rd.png" alt />
+            <h4>Dr. Srinivasa Rao, R&D</h4>
+          </div>
+          <div class="cir12">
+            <img src="cutm/deans-soet.png" alt />
+            <h4>Dr. Sujata Chakraborty, SOET(BBSR)</h4>
+          </div>
+        </div>
+        <div class="lin5">
+          <div class="cir13">
+            <img src="cutm/deans-acad.png" alt />
+            <h4>Dr. Prashanta Kumar Mohanty, Academics</h4>
+          </div>
+
+          <div class="cir14">
+            <img src="cutm/deans-exam.png" alt />
+            <h4>Dr. Sangram Keshari Swain, Examination</h4>
+          </div>
+          <div class="cir15">
+            <img src="cutm/Dr.-Yashaswi-Nayaksoasdwan.jpg" alt />
+            <h4>Dr. Yahaswi Nayak, SoAS(BBSR)</h4>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container" id="camps">
+      <h1 class="title">CAMPUSES</h1>
+      <div class="campus-card">
+        <div class="campus-info">
+          <h2 class="cname">PARALAKHEMUNDI</h2>
+          <label for="campus-dropdown">Select Campus:</label>
+          <select id="campus-dropdown">
+            <option value="paralakhemundi">Paralakhemundi</option>
+            <option value="bhubaneswar">Bhubaneswar</option>
+            <option value="rayagada">Rayagada</option>
+            <option value="Balasore">Balasore</option>
+            <option value="Bolangir">Bolangir</option>
+          </select>
+          <p class="description">
+            Spread over 120 acres on the foothills of the Eastern ghats in a
+            serene environment lies the main campus of Centurion University in
+            Paralakhemundi. It is the only technological University in South
+            Odisha.
+          </p>
+          <div class="address">
+            <div class="icon">
+              <img src="cutm/3183012.png" alt="Location Icon" />
+            </div>
+            <p>
+              Village Alluri Nagar, P.O. – R Sitapur, Via-Uppalada
+              Paralakhemundi, Gajapati, Odisha, India – 761211
+            </p>
+          </div>
+        </div>
+        <div class="campus-image">
+          <img id="campus-img" src="cutm/para.jpeg" alt="Campus Image">
+        </div>
+      </div>
+    </div>
+
+    <div class="admission" id="admis">
+      <h1 align="center">Admission</h1>
+      <div class="adm">
+        <h3 class="hadm">Criteria</h3>
+        <div class="info3">
+          <table>
+            <tr>
+              <th>Programme Name</th>
+              <th>Guidelines</th>
+            </tr>
+            <tr>
+              <td>B.Tech (ECE, EEE, CSE, CE, Civil, Aerospace,
+                Mining)</td>
+              <td>10+2 Physics, Chemistry, Maths 50% and 35% relaxation for
+                reserved category</td>
+            </tr>
+            <tr>
+              <td>B.Tech (Ag, Dairy Tech, and Food Tech)</td>
+              <td>10+2 Physics, Chemistry, Maths/Biology 50% at plus 2</td>
+            </tr>
+            <tr>
+              <td>B.Sc. Health</td>
+              <td>10+2 Science (For Science under NQS 2 from any stream)</td>
+            </tr>
+            <tr>
+              <td>Certificate courses in Allied Health</td>
+              <td>10+2 in Science</td>
+            </tr>
+            <tr>
+              <td>Certificate in Allied Health (6 months courses)</td>
+              <td>10th Standard</td>
+            </tr>
+            <tr>
+              <td>M.Sc. Health</td>
+              <td>B.Sc. with Biology or any Life Science</td>
+            </tr>
+            <tr>
+              <td>B.Sc. IT</td>
+              <td>10+2 Physics, Chemistry, Maths</td>
+            </tr>
+            <tr>
+              <td>M.Sc. (Physics, Chemistry, Maths)</td>
+              <td>B.Sc. in respective disciplines (pass)</td>
+            </tr>
+            <tr>
+              <td>M.Sc. (Zoology and Botany)</td>
+              <td>B.Sc. in Zoology, Botany or Life Sciences (pass)</td>
+            </tr>
+            <tr>
+              <td>M.Sc. (Microbiology, MLT, M.Pharm)</td>
+              <td>B.Sc. in Life Science, D.Sc. in Biology, BAMS, BHMS,
+                Biotechnology, B.Pharm</td>
+            </tr>
+            <tr>
+              <td>M.Pharm</td>
+              <td>B.Pharm degree examination of an Indian university established
+                by law in India from an institution approved by Pharmacy Council
+                of India and have not received less than 55% of the maximum
+                marks aggregate of 4 years of B.Pharm.</td>
+            </tr>
+            <tr>
+              <td>B.Pharm</td>
+              <td>10+2 Physics, Chemistry, Biology (45%)</td>
+            </tr>
+            <tr>
+              <td>B.Sc. Ag</td>
+              <td>10+2 Physics, Chemistry, Biology (45%) from Odisha
+                Board/CBSE/ICSE/other Board for 45%</td>
+            </tr>
+            <tr>
+              <td>M.Sc. (IT)</td>
+              <td>B.Sc. (IT)</td>
+            </tr>
+            <tr>
+              <td>BBA, BCA and BA</td>
+              <td>10+2</td>
+            </tr>
+            <tr>
+              <td>MA</td>
+              <td>Graduation in any discipline</td>
+            </tr>
+            <tr>
+              <td>Diploma Pharma</td>
+              <td>10+2 Pass (with 60% in Physics, Chemistry, Maths) Pass in
+                English and Odia</td>
+            </tr>
+            <tr>
+              <td>Diploma Engg</td>
+              <td>10+2 Pass (with 60% in Physics, Chemistry, Maths) Pass in
+                English and Odia</td>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+    </div>
+    <div class="facility" id="facl">
+      <h1 align="center">Facilities</h1>
+      <div class="faci">
+        <h3>Our Facility</h3>
+        <div class="info5">
+          <p>Centurion University`s campuses comprise of all the requisite
+            infrastructure and facilities to cater to the needs of the residents
+            and visitors. The academic facilities comprise of library, lecture
+            theatres, conference and meeting rooms. </p>
+        </div>
+
+      </div>
+      <div class="type">
+        <div class="lin6">
+          <div class="type1">
+            <h4 align="center">Academic Facilities</h5>
+            <ul>
+              <li>Library</li>
+              <li>Lecture Theatres</li>
+              <li>Boardroom</li>
+              <li>Seminar Hall</li>
+              <li>Wifi</li>
+              <li>Auditorium</li>
+
+            </ul>
+          </div>
+          <div class="type2">
+            <h4 align="center">Residentias Facilities</h4>
+            <ul>
+              <li>Guest Houses</li>
+              <li>Hostels</li>
+              <li>Staff quaters</li>
+              <li>Waiting area</li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="type3">
+          <h4 align="center">Mess and other Facilities</h5>
+          <ul>
+            <li>Mess</li>
+            <li>Centurion Coffee Connect</li>
+            <li>Market Complex</li>
+            <li>Scottish cafe</li>
+
+          </ul>
+        </div>
+        <div class="lin7">
+          <div class="type4">
+            <h4 align="center">Sports and Fitness Facilities</h5>
+            <ul>
+              <li>Swimming</li>
+              <li>Yoga</li>
+              <li>Cricket</li>
+              <li>Volleyball</li>
+              <li>Gymnasium</li>
+
+            </ul>
+          </div>
+          <div class="type5">
+            <h4 align="center">Transport Facilities</h5>
+            <ul>
+              <li>E-Vehicles</li>
+              <li>Bus</li>
+              <li>Ambulance</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="career" id="car">
+      <h1 align="center">Career</h1>
+      <p>Your time here is not just about earning a degree—it's about
+        discovering your potential, building skills, and preparing to make a
+        meaningful impact in the world. We are here to support you with
+        knowledge, resources, and opportunities to grow academically,
+        personally, and professionally. Take risks, embrace challenges, and
+        create a path that reflects your passion and ambition. Remember, the
+        future you envision starts with the choices you make today</p>
+      <div class="cbox">
+        <div class="lin8">
+          <div class="cbox1">
+            <img src="cutm/biotech1.jpg" alt width="250px"
+              height="150px"><p>Biotechnology</p>
+          </div>
+          <div class="cbox2">
+            <img src="cutm/civil-engineering-MBA.jpg" alt width="250px"
+              height="150px"><p>Civil Engineering</p>
+          </div>
+          <div class="cbox3">
+            <img src="cutm/maritime.jpg" alt width="250px"
+              height="150px"><p>Biotechnology</p>
+          </div>
+          <div class="cbox4">
+            <img src="cutm/marketing.png" alt width="250px"
+              height="150px"><p>Marketing</p>
+          </div>
+        </div>
+
+        <div class="lin9">
+          <div class="cbox5">
+            <img src="cutm/NEM_mechanical.jpg" alt width="250px"
+              height="150px"><p>Mechanical Engineering</p>
+          </div>
+          <div class="cbox6">
+            <img src="cutm/cse0.jpg" alt width="250px"
+              height="150px"><p>Computer Science Engineering</p>
+          </div>
+          <div class="cbox7">
+            <img src="cutm/electronic-engineering-msc.jpg" alt width="250px"
+              height="150px"><p>Electrical and Electronic Engineering</p>
+          </div>
+          <div class="cbox8">
+            <img src="cutm//the-future-of-nursing-02.jpg" alt width="250px"
+              height="150px"><p>Nursing</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="Place" class="place">
+      <div class="placem">
+        <header><h1>Placement</h1></header>
+        <br><p>Our placement program is designed to connect you with leading
+          organizations and help you take the first step in your professional
+          journey. Through career counseling, resume-building workshops, mock
+          interviews, and a network of industry partnerships, we aim to equip
+          you with the skills and confidence needed to excel. We believe in not
+          just securing jobs but enabling you to find roles that align with your
+          aspirations and strengths.</p>
+        <img
+          src="cutm/placement-img-768x427.png"
+          alt
+          width="1490px"
+          height="900px" />
+      </div>
+    </div>
+    <div class="Erp" id="Erp">
+      <div class="title">
+      <h3>ERP Login/Sign Up</h3></div>
+      <div class="lopage">
+         <div class="login">
+          <form action="">
+            <label for=""><h1 font-size="45px">Username</h1></label><input type="text" placeholder="Username" >  <br><br>
+            <label for="">    <h1>Password</h1></label><input type="password" name="" id="" placeholder="Password"> <br>
+            <br><br><br>
+            <button type="submit"><a href="/login.html">Log In</a></button><br>
+            <p>If you do not have account        <br><a href="">Sign-Up</a></p>
+          </form>
+
+
+         </div>
+         <div class="sty">
+          <div class="box1">
+            <img src="/cutm/360_F_695939921_vbYBjz5qVTf9zgAa0XfUsKISLXHa6Ju6.png" alt="" width="140px" height="120px">
+          </div>
+          <div class="box2">
+            <img src="cutm/file.png" alt="" width="250px" height="140px">
+          </div>
+          <div class="box3">
+            <img src="cutm/Indian-student-1.png" alt="" width="190px" height="140px">
+          </div>
+
+         </div>
+
+      </div>
+
+    </div>
+   
+  </body>
+  <footer>
+    <marquee behavior="" direction="">It not copyright just made for designing</marquee>
+  </footer>
+
+  <script>
+   
+
+      const campusData = {
+paralakhemundi: {
+  cname:"PARALAKHEMUNDI",
+  description: "Spread over 120 acres on the foothills of the Eastern ghats in a serene environment lies the main campus of Centurion University in Paralakhemundi. It is the only technological University in South Odisha.",
+  address: "Village Alluri Nagar, P.O. – R Sitapur, Via-Uppalada Paralakhemundi, Gajapati, Odisha, India – 761211",
+  image: "cutm/para.jpeg",
+},
+bhubaneswar: {
+  cname:"BHUBANESWAR",
+  description: "Spread over 40 acres of land in the foothill of Barunei hills, near Jatni town, the campus is adjacent to National Institute of Science, Education and Research (NISER), Indian Institute of Technology (IIT), All India Institute of Medical Sciences (AIIMS) and Xavier University. The famous 11th century Lingaraj temple is about 20 kms from this campus.",
+  address: "Ramachandrapur, Jatni, Bhubaneswar, Odisha 752050",
+  image: "cutm/cutmbbsr.jpg",
+},
+rayagada: {
+  cname:"RAYAGADA",
+  description: "Situated in the mineral rich southern part of Odisha, Rayagada is a district of meadows, forests, waterfalls and terraced valleys, inhabited by many primitive tribal groups. The scenic beauty and heritage of the land is an unexplored paradise. Spread over 15 acres of land this campus provides skill integrated education in the region.",
+  address: "Pitamahel, Sunkarimentu, Odisha 765002",
+  image: "cutm/centurion-university-of-technology-and-management-rayagada-ho-rayagada-online-medical-institutes-1qowroj3cw.jpg",
+},
+Balasore: {
+  cname:"BALASORE",
+  description: "Our campus at Balasore is spread across a sprawling 10 acre forested area, which is a perfect synergy of technological advances and environmental sustainability. Well Equipped with State of the Art Laboratories, digital classrooms, a rich and resourceful library replete with the best of publications, learning has never been more hands-on.",
+  address: "as, At-Paikasta, Po-Gopalpur, Dist-Balasore, Pin-756044 Same, Gopalpur, Odisha 756044",
+  image: "cutm/centurion-university-ofblse.jpg",
+},
+Bolangir: {
+  cname:"BOLANGIR",
+  description: "Situated in the western region of Odisha, the campus is spread over 15 acres of land. The CUTM Balangir Campus is located in the heart of the Balangir City which is well connected by rails and roadways. The territory comprising the district of Balangir was part of the erstwhile Patna State.",
+  address: "MFPF+2PQ, near new bus stand, Balangir, Odisha 767001",
+  image: "cutm/bLngir.jpeg",
+},
+};
+
+const name = document.querySelector(".cname");
+const dropdown = document.getElementById("campus-dropdown");
+const descriptionEl = document.querySelector(".description");
+const addressEl = document.querySelector(".address p");
+const campusImage = document.getElementById("campus-img");
+
+dropdown.addEventListener("change", (event) => {
+const selectedCampus = event.target.value;
+
+name.textContent=campusData[selectedCampus].cname;
+descriptionEl.textContent = campusData[selectedCampus].description;
+addressEl.textContent = campusData[selectedCampus].address;
+campusImage.src = campusData[selectedCampus].image;
+campusImage.alt = `${selectedCampus.charAt(0).toUpperCase() + selectedCampus.slice(1)} Campus Image`;
+});
+  </script>
+</html>
